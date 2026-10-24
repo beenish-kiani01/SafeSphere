@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <group>
+        <!-- Feminine Hair with soft curved bangs -->
+        <path
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M50,38 C42,38 38,45 38,55 M50,38 C58,38 62,45 62,55 M44,45 Q50,42 56,45">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="38"
+                    android:startY="38"
+                    android:endX="62"
+                    android:endY="55"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF00E5FF" />
+                    <item android:offset="1" android:color="#FFD500F9" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Soft Minimal Face Outline -->
+        <path
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M43,48 Q43,58 50,58 Q57,58 57,48">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="43"
+                    android:startY="48"
+                    android:endX="57"
+                    android:endY="58"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF00E5FF" />
+                    <item android:offset="1" android:color="#FFD500F9" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Graceful Shoulders and Slim Neck -->
+        <path
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M49,58 V62 M51,58 V62 M40,75 Q40,65 50,65 Q60,65 60,75">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="40"
+                    android:startY="58"
+                    android:endX="60"
+                    android:endY="75"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF00E5FF" />
+                    <item android:offset="1" android:color="#FFD500F9" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+</vector>

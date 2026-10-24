@@ -1,0 +1,25 @@
+# Gradle and generated build files
+.gradle/
+.kotlin/
+**/build/
+
+# Local machine configuration
+local.properties
+
+# Android Studio settings
+.idea/
+*.iml
+
+# Native build files
+.externalNativeBuild/
+.cxx/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env
+
+# Firebase configuration
+/app/google-services.json
